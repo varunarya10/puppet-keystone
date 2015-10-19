@@ -674,9 +674,9 @@ class keystone(
     }
   } else {
     keystone_config {
-      'cache/enabled':             ensure => absent;
+      #'cache/enabled':             ensure => absent;
       'cache/backend':             ensure => absent;
-      'cache/backend_argument':    ensure => absent;
+      #'cache/backend_argument':    ensure => absent;
       'cache/debug_cache_backend': ensure => absent;
       'token/caching':             ensure => absent;
       'memcache/servers':          ensure => absent;
